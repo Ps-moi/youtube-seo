@@ -90,7 +90,7 @@
 - Tầng trên: đựng nước uống cho chim
 - Tầng dưới: đựng thức ăn
 
-### Thức Ăn *(tối thiểu 4 loại — hạt đậu phải được cắt đôi)*
+### Thức Ăn *(tối thiểu 4 loại)*
 - 🍇 Chùm nho xanh
 - 🍎 Táo được cắt đôi
 - 🌰 Hạt dẻ
