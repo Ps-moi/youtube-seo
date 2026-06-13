@@ -1,5 +1,5 @@
 ---
-name: cat-bird-garden-prompt
+name: prompt-img-2
 description: Tạo prompt ảnh nghệ thuật về mèo, chim, sóc/thỏ trong vườn thiên nhiên. Sử dụng skill này mỗi khi người dùng yêu cầu tạo prompt ảnh mèo cùng chim trong bối cảnh thiên nhiên, sân vườn, hoặc yêu cầu "thêm 5 prompt", "prompt mới không trùng lặp", "lấy bối cảnh ở...". Trigger ngay cả khi người dùng chỉ nói ngắn gọn như "cho tôi 5 prompt khác" hoặc "lấy bối cảnh ở trong nhà".
 ---
 
