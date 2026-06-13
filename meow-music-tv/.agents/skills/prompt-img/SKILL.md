@@ -1,5 +1,5 @@
 ---
-name: prompt-img-cattv
+name: prompt-img
 description: >
   Generate detailed, photorealistic AI image prompts featuring a short-haired Munchkin cat
   interacting cutely with birds, squirrels, toys, and nature scenery. Use this skill whenever

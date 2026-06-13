@@ -1,5 +1,5 @@
 ---
-name: cattv-change-positions-keyseo
+name: change-positions-keyseo
 description: Shuffle, rotate, and generate permutations of a fixed list of YouTube tags/keywords for cat music and relaxation videos. Use this skill whenever the user wants to reorder, remix, or generate new arrangements of their cat/relaxation keyword set — including requests like "đảo vị trí từ khóa", "xáo trộn tags", "tạo bộ tags mới", "shuffle keywords", or "generate keyword variations". The output must preserve all keywords but vary their order across multiple sets so no two sets look identical. Always use this skill when the input contains the canonical cat-music keyword list or any subset of it.
 ---
 

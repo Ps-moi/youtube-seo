@@ -1,5 +1,5 @@
 ---
-name: cattv-QTSX-videofinal
+name: seo-video-qtsx-final
 description: >
   Generate SEO-optimized YouTube titles and descriptions for Behind-the-Scenes (BTS) / "How We
   Make Videos" content for pet channels (dogs, cats, birds, and other animals). Use this skill

@@ -1,5 +1,5 @@
 ---
-name: prompt-img-dogtv
+name: prompt-img
 description: >
   Tạo các prompt ảnh chó thực tế, sống động, cân bằng ánh sáng và màu sắc cho AI image generation.
   Sử dụng skill này bất cứ khi nào người dùng yêu cầu viết prompt ảnh chó với nhiều giống, trang phục,

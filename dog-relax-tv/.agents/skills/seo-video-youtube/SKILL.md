@@ -1,5 +1,5 @@
 ---
-name: dogtv-seo-youtube
+name: seo-video-youtube
 description: >
   Generate SEO-optimized YouTube titles (92–100 characters) and matching descriptions for
   dog relaxation/music/TV videos. Use this skill whenever the user asks to create, generate,

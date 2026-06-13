@@ -1,5 +1,5 @@
 ---
-name: cattv-seo-youtube
+name: seo-video-youtube
 description: >
   Generate SEO-optimized YouTube titles (92–100 characters) and matching descriptions for
   cat relaxation/music videos. Use this skill whenever the user asks to create, generate,
