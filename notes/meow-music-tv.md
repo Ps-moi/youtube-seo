@@ -18,12 +18,12 @@
 - **Tránh ngược sáng** — ánh sáng buổi sáng nhẹ nhàng
 
 ### 🐱 Quy Tắc Cho Mèo
-- **Không** để mèo nằm
+- **Hạn chế** để mèo nằm
 - **Không** góc chụp từ trên cao xuống
 - **Không** mặt lạnh lùng, hung dữ, cool ngầu
 - Biểu cảm: **dễ thương, vui vẻ, đáng yêu, gần gũi, cute**
 - Mèo **không nhìn chính diện** — ánh mắt phải hướng về vật cụ thể (đồ chơi, chim, v.v.)
-- Mèo là **điểm nhấn chính** của bức ảnh
+- Mèo và chim là **điểm nhấn chính** của bức ảnh
 
 ### 🐦 Quy Tắc Cho Chim
 - **Không** chọn chim ăn cá
