@@ -41,7 +41,7 @@
 
 ---
 
-## 🐾 Nguyên Liệu Sử Dụng
+## 🐾 Sử Dụng
 
 ### Giống Mèo
 | Giống | Đặc điểm |
