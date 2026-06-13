@@ -1,202 +1,185 @@
 ---
 name: prompt-img-2
-description: Tạo prompt ảnh nghệ thuật về mèo, chim, sóc/thỏ trong vườn thiên nhiên. Sử dụng skill này mỗi khi người dùng yêu cầu tạo prompt ảnh mèo cùng chim trong bối cảnh thiên nhiên, sân vườn, hoặc yêu cầu "thêm 5 prompt", "prompt mới không trùng lặp", "lấy bối cảnh ở...". Trigger ngay cả khi người dùng chỉ nói ngắn gọn như "cho tôi 5 prompt khác" hoặc "lấy bối cảnh ở trong nhà".
+description: >
+  Tạo các prompt ảnh AI chuyên nghiệp về mèo dễ thương trong sân vườn tương tác với chim, sóc/thỏ và đồ chơi. 
+  Kích hoạt khi người dùng yêu cầu "cho tôi thêm N prompt", "tạo prompt ảnh mèo", "viết prompt sân vườn mèo chim",
+  hoặc câu lệnh dạng: "Cho tôi thêm 5 prompt khác không trùng lặp. Lấy bối cảnh ở [...]".
+  Luôn dùng skill này khi tạo prompt ảnh có mèo + chim + bối cảnh thiên nhiên.
 ---
 
-# Cat-Bird Garden Prompt Generator
+# Skill: Cat × Bird Garden Prompt Generator
 
-Skill tạo các prompt ảnh nghệ thuật chất lượng cao, mô tả cảnh mèo – chim – sóc/thỏ trong thiên nhiên sân vườn đầy màu sắc và sinh động.
+Tạo các prompt ảnh AI sinh động, đầy màu sắc về mèo dễ thương trong sân vườn, tương tác với chim muông và động vật nhỏ.
 
 ---
 
-## Cách người dùng gọi skill này
-
-Người dùng sẽ gõ lệnh ngắn theo mẫu:
+## Cú pháp lệnh của người dùng
 
 ```
-Cho tôi thêm 5 prompt khác không trùng lặp. Lấy bối cảnh ở [bối cảnh]. [Chi tiết thêm nếu có]. [Yêu cầu đặc biệt nếu có].
+Cho tôi thêm 5 prompt khác không trùng lặp. Lấy bối cảnh ở [bối cảnh]. [Chi tiết thêm]. [Yêu cầu đồ chơi/không].
 ```
 
-**Claude cần tự điền các thông số còn lại** theo bộ quy tắc bên dưới — người dùng KHÔNG cần gõ lại toàn bộ yêu cầu.
-
----
-
-## QUY TẮC BẤT BIẾN (Áp dụng cho MỌI prompt)
-
-### 🐱 Mèo
-| Thông số | Quy tắc |
-|----------|---------|
-| Giống mèo | Theo từng prompt (xem bảng bên dưới) |
-| Lông | Ngắn, KHÔNG xù, mịn |
-| Tư thế | KHÔNG nằm — ngồi, đứng, đang chơi, đang với tay, đang nghiêng đầu, đang nhún mình |
-| Biểu cảm | Dễ thương, đáng yêu, vui vẻ, tò mò — KHÔNG cool ngầu, KHÔNG hung dữ |
-| Mắt | Tròn to, sáng, nhìn có mục đích rõ ràng (nhìn đồ chơi / nhìn chim / nhìn thức ăn...) |
-| Góc nhìn | KHÔNG nhìn thẳng chính diện vào ống kính |
-| Góc chụp | KHÔNG chụp từ trên cao xuống (no bird's eye view) |
-
-### 🐦 Chim (Mặc định 4 loài — trừ khi prompt chỉ định khác)
-Ưu tiên phối 4 loài 4 màu khác nhau:
-- **Cardinalis cardinalis** — đỏ rực
-- **Oriole** — cam sáng
-- **Cyanistes caeruleus** (Blue Tit) — xanh dương & vàng
-- **White-rumped Shama** — đen, trắng & nâu hạt dẻ
-
-> ⚠️ KHÔNG dùng các loài chim ăn cá (kingfisher, heron, pelican...).
-
-### 🌿 Bối cảnh
-- **Nền chính là cỏ xanh** — sau đó mới đến đất, cát, sỏi, rêu, lá rụng...
-- Ánh sáng: ban mai hoặc chiều tà mềm mại — TUYỆT ĐỐI KHÔNG ngược sáng
-- Ảnh có **chiều sâu** (depth of field rõ ràng), màu sắc sinh động
-- Có thể thêm hoa nhưng số lượng VỪA ĐỦ — không để hoa lấn át nhân vật chính
-
-### 🐿️ Sóc / Thỏ
-- Mỗi prompt có 1 con sóc HOẶC 1 con thỏ (theo chỉ định)
-- Sóc có thể đứng sau vật gì đó (đá, thân cây, chậu hoa...) hoặc đứng tự do gần mèo / bầy chim
-- Kích thước NHỎ HƠN chú mèo
-
----
-
-## BẢNG THÔNG SỐ 5 PROMPT MẶC ĐỊNH
-
-| Prompt | Giống mèo | Màu mèo | Chim | Động vật phụ | Ghi chú |
-|--------|-----------|---------|------|--------------|---------|
-| 1 | Munchkin lông ngắn | Trắng | Cardinal, Blue Tit, African Grey | 1 sóc | — |
-| 2 | Munchkin lông ngắn | Cam trắng | Cardinal, Blue Tit, White-rumped Shama | 1 thỏ trắng | — |
-| 3 | Munchkin lông ngắn | Đen trắng | Cardinal, Blue Tit, Oriole | 1 sóc + 2 bướm trắng | — |
-| 4 | Mèo Anh lông ngắn | Xám trắng | Cardinal, Blue Tit, Oriole, Budgerigar | 1 thỏ trắng | 4 chim |
-| 5 | Toyger lông ngắn | Vằn hổ | Cardinal, Blue Tit, Oriole, Budgerigar | 1 thỏ trắng | 4 chim |
-
-> Khi người dùng yêu cầu "5 prompt mới", hãy THAY ĐỔI giống mèo & màu mèo, nhưng giữ bộ chim theo bảng trên hoặc xoay vòng hợp lý.
-
----
-
-## ĐỒ CHƠI CHO MÈO
-
-Chọn **1 trong 2 nhóm** mỗi prompt (xoay vòng để không trùng):
-
-**Option A — Treo/Trên cao:**
-- Thú bông hình chim treo trên cành cây / giá gỗ
-- Chổi lông treo
-- Chuông gió nhỏ
-- Chuông / lục lạc treo
-
-**Option B — Đặt dưới đất:**
-- Thú bông con chuột
-- Cuộn len màu sắc
-- Banh lồng chuột
-- Cá nhồi bông
-- Tháp bóng 3 tầng
-
-> Đồ chơi phải **phù hợp với hành động của mèo**: mèo đang vươn tay lên → đồ chơi treo cao; mèo đang vồ → đồ chơi dưới đất.
-
----
-
-## ĐỒ ĐỰNG THỨC ĂN CHO CHIM
-
-Chọn **1 kiểu** mỗi prompt (xoay vòng):
-
-**Option A — Đặt dưới đất:**
-- Tô gỗ tròn
-- Đĩa gỗ phẳng
-- Tấm đá tự nhiên phẳng
-- Tấm gỗ tròn rustic
-- Thùng gỗ nhỏ
-
-**Option B — Treo:**
-- Hộp gỗ treo trên cành cây
-- Giá đỡ gỗ có khay đựng thức ăn
-
-**Option C — 2 tầng:**
-- Tầng trên: bát nước uống cho chim
-- Tầng dưới: đựng thức ăn
-
-> ⚠️ Kích thước đồ đựng thức ăn phải **NHỎ HƠN chú mèo**.
-
----
-
-## THỨC ĂN (Tối thiểu 4 loại, đa dạng mỗi prompt)
-
-Chọn từ danh sách — ưu tiên xoay vòng qua các prompt:
-
-| Thức ăn | Cách trình bày |
-|---------|---------------|
-| Chùm nho xanh nhỏ | Nguyên chùm hoặc tách hạt |
-| Táo | Cắt đôi, thấy rõ ruột |
-| Dâu tây | Cắt đôi |
-| Kiwi | Cắt đôi, thấy ruột xanh |
-| Hạt ngô | Rải hoặc thành cụm |
-| Hạt dẻ | Nguyên hạt |
-| **Hạt đậu** | ⚠️ BẮT BUỘC cắt đôi — thấy rõ bên trong |
-
-> Hạt đậu phải được cắt ra làm đôi trong mọi prompt có hạt đậu.
-
----
-
-## CẤU TRÚC PROMPT TIẾNG ANH
-
-Mỗi prompt cần bao gồm đủ các thành phần sau theo thứ tự:
-
-```
-[OPENING — bối cảnh tổng thể & ánh sáng]
-[GROUND — nền cỏ + đất/cát/sỏi + chi tiết bối cảnh]
-[FLORA — cây cối, hoa (vừa đủ), yếu tố đặc trưng của bối cảnh]
-[CAT — giống, màu, tư thế, hành động, biểu cảm, hướng nhìn]
-[TOY — đồ chơi & cách mèo tương tác]
-[FEEDER — đồ đựng thức ăn, kiểu dáng, vật liệu]
-[BIRDS — từng loài, màu sắc, đang ăn / đang đậu]
-[FOOD — liệt kê chi tiết thức ăn trong đồ đựng]
-[WILDLIFE — sóc/thỏ, vị trí, hành động]
-[BUTTERFLY — nếu có]
-[LIGHTING & TECHNICAL — ánh sáng, depth of field, màu sắc, góc chụp]
-```
-
----
-
-## VÍ DỤ PROMPT HOÀN CHỈNH (Tham khảo)
-
-> **Prompt 1 — Munchkin trắng, sân vườn Nhật:**
-
-*A beautifully lit garden scene in soft morning sunlight, set in a traditional Japanese-style backyard with a stone lantern and small mossy stepping stones. The primary ground is lush green grass blending into fine earthy soil. Nearby, a cluster of soft white Hydrangea blooms adds gentle color without overwhelming the scene.*
-
-*In the midground, a short-legged white Munchkin cat with smooth, sleek short fur sits upright with its head tilted curiously to one side. Its large round eyes are bright and warm, gazing attentively at a small feathered toy bird hanging from a low wooden branch above — its tiny paw gently raised as if about to bat at it. Expression: utterly adorable and playful, not aloof.*
-
-*To the side, a rustic two-tiered wooden bird feeder (noticeably smaller than the cat) sits on the grass: the upper tier holds fresh water, the lower tier holds a colorful spread of halved strawberries, sliced kiwi (revealing bright green flesh), small green grape clusters, and split peas (cut cleanly in half showing the interior). A small squirrel peeks out curiously from behind the stone lantern near the feeder.*
-
-*Perched around the feeder are three birds: a vibrant red Northern Cardinal, a blue-and-yellow Cyanistes caeruleus (Eurasian Blue Tit), and a sleek African Grey parrot. Each bird is distinct and colorful.*
-
-*The image is bathed in warm, even morning light with no backlight. Sharp foreground, rich depth of field, vivid and lively colors. Camera angle is at ground level or slight low angle — never top-down.*
-
----
-
-## KHI NGƯỜI DÙNG GỌI SKILL
-
-**Input mẫu:**
+Ví dụ:
 ```
 Cho tôi thêm 5 prompt khác không trùng lặp. Lấy bối cảnh ở trong sân vườn. Có cây hoa, hồ nước nuôi cá cảnh. Sử dụng đồ chơi dành cho mèo.
 ```
 
-**Claude cần làm:**
-1. Xác định bối cảnh từ input (ví dụ: sân vườn có hồ cá cảnh)
-2. Xác định các yêu cầu đặc biệt (ví dụ: có đồ chơi mèo)
-3. Tạo 5 prompt tiếng Anh hoàn chỉnh theo cấu trúc trên
-4. Mỗi prompt thay đổi: giống/màu mèo, bộ chim, đồ chơi, đồ đựng thức ăn, thức ăn, vị trí sóc/thỏ
-5. KHÔNG lặp lại combo đã dùng trong các lần trước cùng cuộc hội thoại
+---
+
+## Ngân hàng tài nguyên
+
+### 🐱 Giống mèo được phép dùng
+- Mèo Munchkin lông ngắn (màu trắng, cam trắng, đen trắng, xám trắng, tam thể, vàng,...)
+- Mèo Anh lông ngắn (British Shorthair) — màu xám trắng, xanh xám, nâu tabby,...
+
+### 🐦 Danh sách chim được dùng
+| Tên | Màu sắc |
+|-----|---------|
+| Cardinalis cardinalis | Vibrant red |
+| Oriole | Bright orange |
+| Cyanistes caeruleus | Blue and yellow |
+| White-rumped Shama | Black, white, and chestnut |
+| Budgerigar | Xanh lá & vàng hoặc xanh dương |
+| African Grey | Xám với đuôi đỏ |
+
+> ⛔ **Không dùng các loài chim ăn cá** (kingfisher, heron, pelican,...)
+
+### 🐿️ Động vật nhỏ đi kèm
+- Sóc (squirrel) — có thể núp sau vật hoặc đứng gần mèo/chim
+- Thỏ trắng (white rabbit)
+- Bướm trắng (white butterfly) — tối đa 2 con
+
+### 🧸 Đồ chơi cho mèo
+
+**Option 1 — Treo trên giá gỗ / cành cây:**
+- Thú bông hình con chim
+- Chổi lông (feather wand)
+- Chuông gió
+- Chiếc chuông nhỏ
+- Lục lạc
+
+**Option 2 — Đặt dưới đất:**
+- Thú bông con chuột
+- Cuộn len
+- Banh lồng chuột (ball-in-ring toy)
+- Cá nhồi bông
+- Đồ chơi tháp bóng 3 tầng
+
+### 🍽️ Đồ đựng thức ăn cho chim/sóc/thỏ
+
+> ⚠️ Kích thước đồ đựng thức ăn **PHẢI nhỏ hơn chú mèo**
+
+**Option 1 — Đặt dưới đất:**
+- Tô gỗ / đĩa gỗ
+- Tấm đá phẳng
+- Tấm gỗ tròn
+- Thùng gỗ nhỏ
+
+**Option 2 — Treo trên giá / cành cây:**
+- Hộp treo xinh xắn
+
+**Option 3 — Kiểu 2 tầng đặt dưới đất:**
+- Tầng trên: đựng nước uống cho chim
+- Tầng dưới: đựng thức ăn
+
+### 🍓 Thức ăn trong đồ đựng (phải đủ tất cả)
+- Chùm nho xanh
+- Táo cắt đôi
+- Hạt dẻ
+- Trái kiwi cắt đôi
+- Hạt ngô
+- Trái dâu tây cắt đôi
 
 ---
 
-## CHECKLIST TRƯỚC KHI XUẤT PROMPT
+## Quy tắc bắt buộc (KHÔNG được vi phạm)
 
-Trước khi hoàn tất mỗi prompt, kiểm tra:
+### 🐱 Về chú mèo
+- ✅ Lông ngắn, không xù
+- ✅ Mặt dễ thương, vui vẻ, đáng yêu, cute
+- ✅ Mắt hướng về đúng đối tượng (đồ chơi → nhìn đồ chơi; chim → nhìn chim)
+- ✅ Tư thế ngồi hoặc đứng — có thể đang vươn tay với đồ chơi
+- ❌ Không nằm
+- ❌ Không nhìn chính diện vào camera
+- ❌ Không mặt cool ngầu / hung dữ
+- ❌ Không nhìn vô hướng / không mục đích
 
-- [ ] Mèo KHÔNG nằm
-- [ ] Mèo KHÔNG nhìn thẳng vào ống kính
-- [ ] Mèo KHÔNG có biểu cảm lạnh lùng / hung dữ
-- [ ] Ánh mắt mèo nhìn vào vật cụ thể (đồ chơi / chim / thức ăn)
-- [ ] Góc chụp KHÔNG từ trên cao xuống
-- [ ] Nền chính là cỏ xanh
-- [ ] Ánh sáng KHÔNG ngược sáng
-- [ ] Hạt đậu được cắt đôi (nếu có)
-- [ ] Kích thước đồ đựng thức ăn nhỏ hơn mèo
-- [ ] Có ít nhất 4 loại thức ăn
-- [ ] Hoa vừa đủ, không lấn át nhân vật chính
-- [ ] Prompt viết bằng tiếng Anh, đủ các thành phần cấu trúc
+### 📸 Về góc chụp & ánh sáng
+- ✅ Góc ngang (eye-level) hoặc hơi thấp
+- ✅ Ánh sáng buổi sáng nhẹ nhàng, tươi sáng
+- ✅ Depth of field rõ ràng (foreground-midground-background)
+- ❌ Không chụp từ trên cao xuống (bird's eye view)
+- ❌ Không backlight / ngược sáng
+- ❌ Không ánh sáng gắt / lóa
+- ❌ Không ánh nắng lờ mờ gây ảnh hưởng chất lượng
+
+### 🌿 Về bối cảnh
+- ✅ Nền chính là **cỏ xanh** (grass-dominant ground)
+- ✅ Có thể kết hợp đất, cát, đá nhỏ — nhưng cỏ phải là chủ đạo
+- ✅ Hoa: số lượng vừa đủ, tạo điểm nhấn — không quá nhiều
+- ✅ Màu sắc sinh động, đầy sức sống
+- ✅ Bức ảnh có chiều sâu (depth)
+
+### 🌟 Về điểm nhấn tổng thể
+- Mèo và chim là **nhân vật chính**
+- Sóc/thỏ/bướm là phụ, tạo thêm sức sống
+- Không có yếu tố nào lấn át nhân vật chính
+
+---
+
+## Cấu trúc prompt chuẩn
+
+```
+[SHOT & STYLE] Clear, well-lit, [angle] shot with detailed background and clear depth of field. Soft morning sunlight, no backlight, no harsh light.
+
+[GROUND/SETTING] Primary ground is lush green grass [+ secondary elements: clean dirt / fine sand / small pebbles]. [Background scenery per user request].
+
+[FLORA] [Nếu có hoa: A beautiful cluster of [loài hoa] blooming nearby — quantity kept tasteful, not overwhelming.]
+
+[CAT] A [màu sắc] short-haired [giống mèo] cat with smooth, non-fluffy coat is [tư thế đứng/ngồi + hành động]. The cat has an adorable, cheerful, and curious expression with sweet eyes gazing [toward đối tượng cụ thể].
+
+[CAT TOY — nếu có] [Mô tả đồ chơi + cách mèo tương tác — eyes directed at the toy].
+
+[FOOD CONTAINER] A [mô tả đồ đựng] — notably smaller than the cat — holds [danh sách đủ 6 loại thức ăn: green grape clusters, halved apples, chestnuts, halved kiwi, corn kernels, halved strawberries].
+
+[BIRDS] [Số lượng] birds are eating from it: [Tên chim 1 (màu)], [Tên chim 2 (màu)], [Tên chim 3 (màu)][, Tên chim 4 nếu có].
+
+[SMALL ANIMAL] [Mô tả sóc/thỏ + vị trí — peeking from behind / near the feeder / close to the cat].
+
+[BUTTERFLY — nếu có] Two white butterflies flutter gracefully nearby.
+```
+
+---
+
+## Ví dụ prompt mẫu hoàn chỉnh
+
+```
+Clear, well-lit, ground-level shot with a detailed garden background and clear depth of field. Soft morning sunlight casting a fresh, gentle glow — strictly no backlight or harsh lighting.
+
+Primary ground is lush green grass mixed with fine clean dirt. A small wooden garden fence lines the background, with climbing roses in soft pink adding gentle color accents — kept tasteful and not overwhelming.
+
+A white short-haired Munchkin cat with a smooth, non-fluffy coat sits upright on the grass, one paw gently raised and reaching toward a hanging feather wand toy suspended from a small wooden stand. The cat's expression is utterly adorable and joyful, with big round sweet eyes gazing attentively at the feather toy.
+
+A round wooden tray — noticeably smaller than the cat — rests on the grass nearby, holding green grape clusters, halved apples, chestnuts, halved kiwi, corn kernels, and halved strawberries.
+
+Three birds eat from the tray: a Cardinalis cardinalis (vibrant red), a Cyanistes caeruleus (blue and yellow), and an African Grey (grey with a red tail).
+
+A small squirrel peeks out curiously from behind a mossy garden stone near the food tray, its tiny eyes wide with interest.
+
+The entire scene is bathed in soft, clear morning light with vivid, lively colors and beautiful depth from foreground to background.
+```
+
+---
+
+## Checklist trước khi xuất prompt
+
+- [ ] Mèo đúng giống & màu yêu cầu
+- [ ] Mèo không nằm, không nhìn thẳng camera, không mặt hung
+- [ ] Mắt mèo hướng đúng đối tượng
+- [ ] Đủ 3–4 chú chim đúng loài yêu cầu (không dùng chim ăn cá)
+- [ ] Đồ đựng thức ăn nhỏ hơn mèo
+- [ ] Đủ 6 loại thức ăn trong đồ đựng
+- [ ] Nền cỏ là chủ đạo
+- [ ] Không backlight / ánh sáng gắt / lờ mờ
+- [ ] Không góc từ trên cao
+- [ ] 5 prompt không trùng lặp nhau (giống mèo, màu, đồ chơi, chim, bối cảnh, đồ đựng)
