@@ -1,6 +1,4 @@
-# 🎵 Bộ SKILL & Prompt
-
-Tổng hợp các bộ **SKILL**, tài liệu trực quan và prompt dành cho từng dự án.
+# Bộ SKILL & Prompt
 
 ---
 
