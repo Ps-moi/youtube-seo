@@ -84,7 +84,7 @@
 - Tấm gỗ tròn
 
 **Option 2 — Treo trên giá hoặc cành cây:**
-- Hộp đựng thức ăn treo
+- Đồ đựng thức ăn treo
 
 **Option 3 — Kiểu 2 tầng đặt dưới đất:**
 - Tầng trên: đựng nước uống cho chim
