@@ -6,7 +6,7 @@
 
 | Nội dung                 | Liên kết                                |
 | ------------------------ | --------------------------------------- |
-| 🎨 Tài liệu trực quan    | [Xem tài liệu](/notes/meow-music-tv.md) |
+| 🎨 Tài liệu trực quan    | [Xem tài liệu](/docs/meow-music-tv.md) |
 | ✨ Prompt dành cho Gemini | [Xem Prompt](/prompts-gemini/meow-music-tv.md) |
 
 ---
@@ -15,13 +15,13 @@
 
 | Nội dung                 | Liên kết                               |
 | ------------------------ | -------------------------------------- |
-| 🎨 Tài liệu trực quan    | [Xem tài liệu](/notes/dog-relax-tv.md) |
+| 🎨 Tài liệu trực quan    | [Xem tài liệu](/docs/dog-relax-tv.md) |
 | ✨ Prompt dành cho Gemini | [Xem Prompt](/prompts-gemini/dog-relax-tv.md) |
 
 ---
 
 ## 📌 Ghi chú
 
-* Các tài liệu trực quan được lưu trong thư mục `/notes`.
+* Các tài liệu trực quan được lưu trong thư mục `/docs`.
 * Các bộ prompt được lưu trong thư mục `/prompts-gemini`.
 * Mỗi dự án nên sử dụng tên file thống nhất để thuận tiện quản lý và cập nhật.

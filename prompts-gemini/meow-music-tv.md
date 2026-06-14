@@ -6,14 +6,13 @@ The image presents a charming scene of wildlife and color in a lush backyard gar
 
 Đây là mẫu prompt và ảnh mẫu được thiết kế theo kiểu màu sắc này, mỗi prompt sẽ thay đổi giống mèo và màu của mèo, các hành động đáng yêu của chúng khi tương tác với đồ chơi hoặc đồ trang trí, thay đổi các giống chim và màu sắc của chim, đồ đựng thức ăn cho chim sóc ăn(Lưu ý kích thước đồ đựng thức ăn cho chim sóc phải nhỏ hơn chú mèo)(Lưu ý là bối cảnh phải có cỏ làm chính rồi mới tới như nền cỏ, đất, cát,...), có thể thêm hoa(lưu ý số lượng hoa vừa đủ tránh trường quá nhiều hoa), bức ảnh có chiều sâu, màu sắc sinh động, đầy màu sắc, tránh trường hợp bị ngược sáng hoặc bị ánh sáng gắt, con sóc nó có thể đứng sau 1 vật gì đó hoặc không đứng sau gì cả có thể ở gần con mèo hoặc bầy chim.
 
-Lưu ý: không được cho chú mèo nằm, điểm nhấn vẫn là hình ảnh chú mèo và các chú chim làm nổi bật cho bức ảnh, biểu cảm của chú mèo dễ thương, không được kiểu gương mặt cool ngầu, hung dữ, không được sử dụng góc chụp từ trên cao xuống. Ánh mắt chú mèo dễ thương đáng yêu gần gũi cute. Chú mèo không được nhìn chính diện. Ánh mắt chú mèo phải hướng về cái gì đó ví như đang chơi đồ chơi thì nhìn đồ chơi, đang với cái gì đó thì nhìn cái đó, tránh nhìn vật không xác định, tránh nhìn không có mục đích. Tránh và loại bỏ ánh nắng lơ mờ gây ảnh hưởng đến ảnh
-
+Lưu ý quan trọng: Không được sử dụng góc chụp hoặc kiểu chụp từ trên cao xuống. Không được cho chú mèo nằm, điểm nhấn vẫn là hình ảnh chú mèo và các chú chim làm nổi bật cho bức ảnh, biểu cảm của chú mèo dễ thương, không được kiểu gương mặt cool ngầu, hung dữ. Ánh mắt chú mèo dễ thương đáng yêu gần gũi cute. Chú mèo không được nhìn chính diện. Ánh mắt chú mèo phải hướng về cái gì đó ví như đang chơi đồ chơi thì nhìn đồ chơi, đang với cái gì đó thì nhìn cái đó, tránh nhìn vật không xác định, tránh nhìn không có mục đích. Không có ánh sáng mặt trời lờ mờ, không có vệt sáng mặt trời. Ảnh chân thật 8K
 
 Mỗi prompt sử dụng các đồ chơi cho mèo phù hợp, đồ đựng thức ăn cho chim đa dạng kiểu dáng đẹp, xinh xắn dễ thương hợp với bối cảnh, Sử dụng giống mèo: mèo munchkin lông ngắn, lông không bị xù, mặt chú mèo dễ thương, đáng yêu, mặt vui vẻ, (các chú chim không lấy các chú chim ăn cá).
 
 Sử dụng các dòng chim sau: Cardinalis cardinalis (vibrant red), Oriole (bright orange), Cyanistes caeruleus (blue and yellow), White-rumped Shama (black, white, and chestnut), Budgerigar, African Grey.
 
-Sử dụng các giống mèo sau đây: mèo munchkin lông ngắn, mèo anh lông ngắn.
+Sử dụng các giống mèo sau đây: mèo munchkin lông ngắn màu Cam trắng, mèo munchkin lông ngắn màu  Đen trắng, mèo munchkin lông ngắn màu Trắng, mèo munchkin lông ngắn màu tam thể (cam đen trắng), mèo anh lông ngắn màu xám trắng,
 
 Sử dụng các đồ chơi cho mèo sau đây: 
 
@@ -42,10 +41,10 @@ Prompt 3: Sử dụng: chú mèo munchkin lông ngắn màu đen trắng, lông 
 
 Prompt 4: Sử dụng: chú mèo anh lông ngắn màu xám trắng, lông không bị xù, sử dụng: 4 chú chim đang ăn thức ăn:  Cardinalis cardinalis (vibrant red), Cyanistes caeruleus (blue and yellow), Oriole (bright orange), Budgerigar,  sử dụng: 1 con thỏ trắng, sử dụng bối cảnh theo yêu cầu, sử dụng đồ chơi cho mèo hoặc không theo yêu, hành động dễ thương của chú mèo
 
-Prompt 5: Sử dụng: chú mèo munchkin lông ngắn, lông không bị xù, sử dụng: 4 chú chim đang ăn thức ăn:  Cardinalis cardinalis (vibrant red), Cyanistes caeruleus (blue and yellow), Oriole (bright orange), Budgerigar,  sử dụng: 1 con thỏ trắng, sử dụng bối cảnh theo yêu cầu, sử dụng đồ chơi cho mèo hoặc không theo yêu, hành động dễ thương của chú mèo
+Prompt 5: Sử dụng: chú mèo munchkin lông ngắn màu tam thể (cam đen trắng), lông không bị xù, sử dụng: 4 chú chim đang ăn thức ăn:  Cardinalis cardinalis (vibrant red), Cyanistes caeruleus (blue and yellow), Oriole (bright orange), Budgerigar,  sử dụng: 1 con thỏ trắng, sử dụng bối cảnh theo yêu cầu, sử dụng đồ chơi cho mèo hoặc không theo yêu, hành động dễ thương của chú mèo
 
 
-Mỗi lần tôi sử dụng SKILL thì tôi thì đưa câu lệnh này thôi:
+Mỗi lần tôi sử dụng thì tôi thì đưa câu lệnh này thôi:
 
 Cho tôi thêm 5 prompt khác không trùng lặp. Lấy bối cảnh ở [...]. [....]. [...].
 
